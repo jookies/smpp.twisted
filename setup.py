@@ -14,7 +14,7 @@ def read(fname):
 
 setup(
     name="smpp.twisted3",
-    version="0.4",
+    version="0.6",
     author="Roger Hoover",
     author_email="roger.hoover@gmail.com",
     description="SMPP 3.4 client built on Twisted / Python3",
