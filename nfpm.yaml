@@ -1,0 +1,22 @@
+name: "python3-smpp-twisted3"
+arch: "amd64"
+platform: "linux"
+version: "v0.6"
+section: "default"
+priority: "extra"
+maintainer: "Jookies LTD <jasmin@jookies.net>"
+description: "SMPP 3.4 client built on Twisted / Python3"
+vendor: "Roger Hoover"
+homepage: "https://github.com/jookies/smpp.twisted"
+license: "Apache 2"
+replaces:
+  - python3-smpp-twisted3
+provides:
+  - python3-smpp-twisted3
+depends:
+  - python3 (>= 3.7)
+  - python3-smpp-pdu3
+  - python3-pip
+scripts:
+  postinstall: ./misc/packaging/scripts/common-postinstall.sh
+  preremove: ./misc/packaging/scripts/common-preremove.sh
