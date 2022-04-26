@@ -1,5 +1,5 @@
 Twisted~=22.1.0
-pyOpenSSL~=19.1.0
+pyOpenSSL~=22.0.0
 # cant install from other projects
 # smpp.pdu @ git+https://github.com/DomAmato/smpp.pdu.git@master
-smpp.pdu3~=0.4
+smpp.pdu3~=0.6
